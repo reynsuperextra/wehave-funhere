@@ -1,0 +1,143 @@
+height:100%;
+
+width:100%;
+
+}
+
+}
+
+.BEATRICEProse{
+
+grid-area: PROSE;
+
+height:500px;
+
+width:100%;
+
+overflow:auto;
+
+scrollbar-color: red transparent;
+
+scrollbar-width: thin;
+
+}
+
+.BEATRICEProse::-webkit-scrollbar {
+
+width: 1px;
+
+}
+
+.BEATRICEProse::-webkit-scrollbar-track {
+
+background-color:transparent;
+
+}
+
+.BEATRICEProse::-webkit-scrollbar-thumb {
+
+background-color:var(--accent);
+
+width:4px;
+
+border-right:3px solid rgba(0, 0, 0, 0);
+
+}
+
+@media screen and (max-width: 800px){
+
+.BEATRICEProse{
+
+grid-area: PROSE;
+
+height:100%;
+
+width:100%;
+
+}
+
+}
+
+.BEATRICEBody{
+
+padding-top:20px;
+
+padding-bottom:20px;
+
+padding-left:40px;
+
+padding-right:40px;
+
+text-align:justify;
+
+}
+
+@media screen and (max-width: 800px){
+
+.BEATRICEBody{
+
+padding-left:20px;
+
+padding-right:20px;
+
+padding-bottom:20px;
+
+padding-top:0px;
+
+text-align:justify;
+
+}
+
+}
+
+.BEATRICEImage{
+
+border:1px solid var(--accent);
+
+height:250px;
+
+width:200px;
+
+background-image:var(--imagemain);
+
+background-size:cover;
+
+background-position:center center;
+
+margin:auto;
+
+}
+
+.BEATRICETitle{
+
+font-family:var(--fonttitle);
+
+font-size:30px;
+
+text-shadow:0px 0px 30px var(--glow), 0px 0px 15px var(--glow);
+
+text-align:center;
+
+margin:auto;
+
+}
+
+.BEATRICESubtitle{
+
+font-size:12px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+.BEATRICEAccentText{
+
+color:var(--accent);
+
+font-size:17px;
+
+display:inline;
+
+}
